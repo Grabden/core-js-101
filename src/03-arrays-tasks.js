@@ -641,12 +641,12 @@ function getElementByIndexes( arr, indexes ) {
  *
  */
 function swapHeadAndTail( arr ) {
-  //throw new Error('Not implemented');
-  let k=(arr.length-arr.length%2)/2
+  throw new Error('Not implemented');
+  /*let k=(arr.length-arr.length%2)/2
   if(arr.length%2==0)
     return arr.concat(arr.splice(k,k),arr.splice(0,k))
   if(arr.length==1) return arr;
-  return arr.concat(arr.splice(0,k),arr[k+1],arr.splice(k,k))
+  return arr.concat(arr.splice(0,k),arr[k+1],arr.splice(k,k))*/
 }
 
 
